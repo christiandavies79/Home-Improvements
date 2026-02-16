@@ -25,7 +25,7 @@ docker run -d \
   -p 3000:3000 \
   -v homeforge-data:/app/data \
   -e SESSION_SECRET=$(openssl rand -hex 32) \
-  <your-dockerhub-username>/homeforge:latest
+  dpooper79/homeforge:latest
 ```
 
 ### Using Docker Compose
