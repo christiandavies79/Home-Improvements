@@ -1,0 +1,16 @@
+services:
+  homeforge:
+    build: .
+    container_name: homeforge
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - DATA_DIR=/app/data
+      # Generate a strong secret for production:
+      # openssl rand -hex 32
+      - SESSION_SECRET=${SESSION_SECRET:-change-me-to-a-random-secret}

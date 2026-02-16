@@ -1,0 +1,15 @@
+{
+  "name": "homeforge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HomeForge - Home Improvement Tracker & Design Board",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build",
+    "build": "npm run build:client && npm run build:server",
+    "start": "cd server && node dist/index.js",
+    "setup": "cd server && npm install && cd ../client && npm install"
+  }
+}

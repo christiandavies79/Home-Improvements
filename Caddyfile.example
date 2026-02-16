@@ -1,0 +1,9 @@
+# Example Caddyfile for exposing HomeForge to the internet
+# Caddy automatically handles HTTPS certificates via Let's Encrypt
+#
+# Replace "homeforge.yourdomain.com" with your actual domain
+# Place this in your Caddy config directory or use: caddy run --config Caddyfile
+
+homeforge.yourdomain.com {
+    reverse_proxy localhost:3000
+}

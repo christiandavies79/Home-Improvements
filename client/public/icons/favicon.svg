@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="20" fill="#C2603A"/>
+  <g fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- House outline -->
+    <path d="M20 50 L50 25 L80 50"/>
+    <path d="M28 47 L28 75 L72 75 L72 47"/>
+    <!-- Door -->
+    <rect x="42" y="58" width="16" height="17" fill="none"/>
+    <!-- Window -->
+    <rect x="33" y="52" width="10" height="8" fill="none"/>
+    <rect x="57" y="52" width="10" height="8" fill="none"/>
+    <!-- Wrench accent -->
+    <circle cx="76" cy="28" r="6" fill="none" stroke-width="3"/>
+    <line x1="72" y1="32" x2="64" y2="40" stroke-width="3"/>
+  </g>
+</svg>
