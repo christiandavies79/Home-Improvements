@@ -123,5 +123,5 @@ On every push to `main`, a GitHub Actions workflow automatically:
 
 To pull the latest image:
 ```bash
-docker pull <your-dockerhub-username>/homeforge:latest
+docker pull dpooper79/homeforge:latest
 ```
